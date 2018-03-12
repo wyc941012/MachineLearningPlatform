@@ -1,2 +1,3 @@
 # MachineLearningPlatform
-基于Spark和Kubernetes的机器学习平台
+基于Spark的机器学习平台。
+底层使用Docker容器作为运行环境，使用Kubernetes对Docker集群进行管理。上层通过使用Spark的机器学习算法库对外提供服务，分为离线计算和实时计算两种。离线计算主要包括分类、回归、聚类和推荐等几类，实时计算使用Spark Streaming进行处理。
