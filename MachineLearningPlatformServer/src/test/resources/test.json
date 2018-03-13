@@ -1,0 +1,21 @@
+{
+    "name": "LogisticRegression",
+    "showName": "逻辑回归",
+    "className": "org.apache.spark.ml.classification.LogisticRegression",
+    "componentsType": "ESTIMATOR",
+    "usageType": "CLASSIFICATION",
+    "parameterDescs": {
+      "outputCol": {
+        "name": "maxIter",
+        "showName": "迭代次数",
+        "valueType": "INT",
+        "value": "100"
+      },
+      "inputCol": {
+        "name": "regParam",
+        "showName": "正则化参数",
+        "valueType": "DOUBLE",
+        "value": "0.01"
+      }
+    }
+}
